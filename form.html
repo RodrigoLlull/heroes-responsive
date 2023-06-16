@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <header>
+        <section class="discount">
+            <p>20% de descuento en todos los productos!</p>
+        </section>
+        <section class="titleSection">
+            <figure>
+                <img src="images/nav logo.png" alt="">
+            </figure>
+            <h1>Nombre Tienda</h1>
+        </section>
+        <section class="toolsNav">
+            <nav>
+                <ul class="toolsList">
+                    <li><a href="">Contacto</a></li>
+                    <li><a href="">Registrarme</a></li>
+                    <li><a href="">Ingresar</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <form class="form">
+            <h2>Añadí tu super!</h2>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            <section class="inputs">
+                <article class="nombreEspecieFechaFoto">
+                    <label for="">*Nombre</label>
+                    <input class="input" type="text" name="nombre">
+                </article>
+                <article class="nombreEspecieFechaFoto">
+                    <label for="">*Especie</label>
+                    <select class="input" name="especie" id="">
+                        <option value="" selected disabled>Especie</option>
+                    </select>
+                </article>
+                <article class="nombreEspecieFechaFoto">
+                    <label for="">Fecha</label>
+                    <input class="input" type="date" name="fecha">
+                </article>
+                <article class="nombreEspecieFechaFoto inputFileContainer">
+                    <label for=""> Agregar Foto</label>
+                    <input class="inputFile" type="file" name="archivo">
+                </article>
+                <article>
+                    <textarea class="input textArea" type="text" placeholder="Descripción"></textarea>
+                </article>
+                <section class="checkboxRadio">
+                    <section>
+                        <h4>Poderes</h4>
+                        <article>
+                            <input type="checkbox" value="Volar" name="poderes" id="volar">
+                            <label for="volar">Volar</label>
+                        </article>
+                        <article>
+                            <input type="checkbox" value="Volar" name="poderes" id="SuperInteligencia">
+                            <label for="SuperInteligencia">SuperInteligencia</label>
+                        </article>
+                        <article>
+                            <input type="checkbox" value="Volar" name="poderes" id="Vista de rayo láser">
+                            <label for="Vista de rayo láser">Vista de rayo láser</label>
+                        </article>
+                        <article>
+                            <input type="checkbox" value="Volar" name="poderes" id="Billetera gorda">
+                            <label for="Billetera gorda">Billetera gorda</label>
+                        </article>
+                    </section>
+                    <hr>
+                    <section>
+                        <h4>Tipo de personaje</h4>
+                        <section>
+                            <article>
+                                <input type="radio" name="Tipo de personaje" value="Héroe / Heroina">
+                                <label for="">Héroe / Heroina</label>
+                            </article>
+                            <article>
+                                <input type="radio" name="Tipo de personaje" value="Villano / Villana">
+                                <label for="">Villano / Villana</label>
+                            </article>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <section class="btnSubmitContainer">
+                <input class="btnSubmit" type="submit" value="Añadir">
+            </section>
+        </form>
+    </main>
+    <footer class="footer">
+        <article>
+            <p>Todos los derechos reservados a FRONT END 1</p>
+        </article>
+    </footer>
+</body>
+</html>
